@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.zero,.one,.two,.three,.four,.five,.six,.seven,.eight,.nine{
+    background-color: yellow;
+}
+
+.reset,.delete,.multiply,.divide,.Add{
+    background-color: orange;
+}
+
+.Equals{
+    background-color: red;
+}
+
+.container{
+    margin:40px auto;
+    width:19.5%;
+    background-color: black;
+    border: 5px solid black;
+}
+
+.row0, .row1, .row2, .row3{
+    display: flex;
+    width:100%;
+
+}
+.btnContainer button{
+    width:60px;
+    height:20px;
+    border: 2px solid;
+}
